@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Marcin Kubala</title>
+</head>
+
+<body class="lightTheme js-body body">
+    <header>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#oMnie">O Mnie</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#kontakt">Kontakt</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#tabela">Tabela</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="button js-button">Zmień motyw na <span class="js-buttonName">ciemny</span></button>
+    </header>
+
+    <main>
+        <section class="section__info">
+            <h1 class="section__main">Marcin Kubala</h1>
+            <img class="section__image" height="300" width="300"
+                src="https://scontent.fpoz5-1.fna.fbcdn.net/v/t1.6435-9/61654380_2763941586956313_6983642189372850176_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wMIu2rrWJ7IAX9HjEp6&_nc_ht=scontent.fpoz5-1.fna&oh=00_AfD8w8Q3q3kMdbJ6D5whQEMc4L8ghiNmAyh64hQ03JnYhQ&oe=639919BB"
+                alt="Marcin Kubala" />
+            <h2 class="section__heading" id="oMnie">O mnie</h2>
+            <p>
+                Urodziłem się w <strong>Katowicach</strong>, stolicy Śląska.
+                <br>
+                Obecnie mam 33 lata, mieszkam i pracuję we Włocławeku.
+            </p>
+            <h2 class="section__heading" id="zainteresowania">Zainteresowania</h2>
+            <ul class="section__list">
+                <li class="section__item"><strong>Modelowanie</strong> - tworze grafikę 3D w stylu low poly.</li>
+                <li class="section__item"><strong>Kodowanie</strong> - hobbistycznie piszę kod w języku C# do różnych
+                    mechanik w grach i projektach.</li>
+                <li class="section__item"><strong>Tworzenie gier</strong> - aktualnie kończę projekt gry
+                    symulacyjno-logicznej, w której kolorowe bryły geometryczne musimy dostarczyć w odpowiednie miejsca.
+                </li>
+                <li class="section__item"><strong>Podróżowanie</strong> - każdy urlop spędzam zwiedzając kolejne ciepłe
+                    kraje.</li>
+                <li class="section__item"><strong>Nowe technologie</strong> - Interesuje się też nowinkami
+                    technologicznymi.</li>
+            </ul>
+            <h2 class="section__heading" id="kontakt">Kontakt</h2>
+            <p>Email: <a class="section__link" href="marcin.kubala.89@gmail.com">marcin.kubala.89@gmail.com</a></p>
+        </section>
+
+        <section class="section">
+            <div class="section__table">
+                <table class="table" id="tabela">
+                    <caption class="table__caption">Moje ulubione utwory</caption>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                        <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                        <th class="table__cell table__cell--header" scope="col">Album</th>
+                        <th class="table__cell table__cell--header" scope="col">Rok wydania</th>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Seasons</th>
+                        <td class="table__cell" rowspan="2">Olly Murs</td>
+                        <td class="table__cell">Never Been Better</td>
+                        <td class="table__cell">2015</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Moves</th>
+                        <td class="table__cell">You Know I Know</td>
+                        <td class="table__cell">2017</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Diggy Diggy Hole</th>
+                        <td class="table__cell">Wind Rose</td>
+                        <td class="table__cell">Wintersaga</td>
+                        <td class="table__cell">2019</td>
+                    </tr>
+                    <tr class="table__row">
+                        <th class="table__cell table__cell--header" scope="row">Unstoppable</th>
+                        <td class="table__cell">Sia</td>
+                        <td class="table__cell">This Is Acting</td>
+                        <td class="table__cell">2016</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">©Copyright 2022 by Marcin Kubala. All rights reversed.</footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.navigation {
+    margin: auto;
+}
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 2.5;
+}
+
+.navigation__item {
+    margin: auto;
+    display: inline;
+    font-size: 25px;
+    font-weight: bolt;
+    padding: 5px;
+}
+
+.navigation__link {
+    padding: 5px 10px;
+    color: black;
+    border-radius: 20px;
+    background-color: darkgray;
+    text-decoration: none;
+    box-shadow: 3px 2px 5px 2px rgb(0, 0, 0);
+}
+
+.navigation__link:hover {
+    color: gray;
+}
