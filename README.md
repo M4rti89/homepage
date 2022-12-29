@@ -2,7 +2,7 @@
 
 ## [Link](https://m4rti89.github.io/homepage/)
 
-![Screenshot](https://github.com/M4rti89/CurrencyExchange/blob/main/img/CurrencyExchangeImage.png)
+![Screenshot](https://github.com/M4rti89/homepage/blob/main/img/screenshot.png)
 ### Technologies:
 - HTML
 - CSS
