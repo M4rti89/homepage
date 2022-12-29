@@ -1,8 +1,16 @@
-let buttonElement = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let nameTheme = document.querySelector(".js-buttonName")
+{
+    const toggleBackground = () => {
+        const body = document.querySelector(".js-body");
+        const nameTheme = document.querySelector(".js-buttonName")
 
-buttonElement.addEventListener("click", () => {
-    body.classList.toggle("darkTheme");
-    nameTheme.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
-});
+        body.classList.toggle("darkTheme");
+        nameTheme.innerText = body.classList.contains("darkTheme") ? "jasny" : "ciemny";
+    }
+
+    const init = () => {
+        const buttonElement = document.querySelector(".js-button");
+        buttonElement.addEventListener("click", toggleBackground);
+    }
+
+    init();
+}
