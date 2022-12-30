@@ -9,6 +9,7 @@
 
     const init = () => {
         const buttonElement = document.querySelector(".js-button");
+        
         buttonElement.addEventListener("click", toggleBackground);
     }
 
